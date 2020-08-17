@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AngularBlog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
@@ -46,4 +45,3 @@ For development, you will need Node.js and AngularCli installed in your environe
     $ ng serve --open
 
     Open browser and go to http://localhost:4200
->>>>>>> cba3e8f7e5028619a53563a2b8b13442a4c8b984
