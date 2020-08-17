@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 pt-3">
+      <h4>Create a new post</h4>
+      <form [formGroup]="newPostForm" (ngSubmit)="submitPost()">
+        <div class="form-group">
+          <label>Title</label>
+          <input type="text" class="form-control" formControlName="title">
+        </div>
+        <div class="form-group">
+          <label>Description</label>
+          <textarea class="form-control" formControlName="description"></textarea>
+        </div>
+        <div class="form-group">
+          <tag-input formControlName="tags"></tag-input>
+        </div>
+        <button type="submit" class="btn btn-primary mr-2" *ngIf="!isEdit; else showEdit">Create</button>
+        <ng-template #showEdit>
+          <button type="submit" class="btn btn-primary mr-2">Update</button>
+        </ng-template>
+        <button class="btn btn-secondary" [routerLink]="['/home']">Cancel</button>
+      </form>
+    </div>
+  </div>
+</div>
