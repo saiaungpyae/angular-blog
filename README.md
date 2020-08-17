@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AngularBlog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
@@ -25,3 +26,24 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# angular-blog
+Sample blog CRUD using AngularJS
+
+---
+## Requirements
+
+For development, you will need Node.js and AngularCli installed in your environement.
+
+## Install
+
+    $ git clone git@github.com:saiaungpyae/angular-blog.git
+    $ cd angular-blog
+    $ npm install
+
+## Running the project
+
+    $ ng serve --open
+
+    Open browser and go to http://localhost:4200
+>>>>>>> cba3e8f7e5028619a53563a2b8b13442a4c8b984
